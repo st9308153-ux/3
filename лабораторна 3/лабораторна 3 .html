@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Стилізація</title>
+    
+    <!-- 3. Зовнішній CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- 2. Внутрішній CSS -->
+    <style>
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 50px 45px;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+        }
+        
+        h2 {
+            color: #2563eb;
+            border-bottom: 3px solid #bfdbfe;
+            padding-bottom: 12px;
+            margin-top: 40px;
+        }
+        
+        .highlight {
+            background-color: #eff6ff;
+            padding: 25px;
+            border-radius: 12px;
+            border-left: 6px solid #3b82f6;
+            margin: 25px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <!-- 1. Вбудований CSS (inline style) -->
+        <h1 style="color: #1e40af; text-align: center; font-size: 2.9rem; margin-bottom: 20px;">
+            CSS Стилізація
+        </h1>
+        
+        <p class="highlight">
+            Cascading Style Sheets (CSS) використовується для стилізації та форматування HTML-елементів.
+        </p>
+        
+        <h2>Чому CSS важливий?</h2>
+        <p>
+            CSS дозволяє змінювати кольори, шрифти, відступи, рамки та створювати сучасний вигляд веб-сторінок.
+        </p>
+        
+        <h2>Основні можливості CSS</h2>
+        <ul>
+            <li>Зміна кольорів тексту та фону</li>
+            <li>Налаштування шрифтів</li>
+            <li>Додавання відступів і полів</li>
+            <li>Створення рамок та тіней</li>
+            <li>Вирівнювання елементів</li>
+            <li>Ефекти при наведенні</li>
+        </ul>
+        
+        <h2>Етапи роботи</h2>
+        <ol>
+            <li>Створення HTML-структури</li>
+            <li>Підключення стилів</li>
+            <li>Налаштування дизайну</li>
+            <li>Тестування</li>
+        </ol>
+        
+        <h2>Корисні посилання</h2>
+        <p>
+            <a href="https://developer.mozilla.org/uk/docs/Web/CSS" target="_blank">MDN Web Docs — CSS</a><br><br>
+            <a href="https://www.w3schools.com/css/" target="_blank">W3Schools — CSS</a><br><br>
+            <a href="https://html5book.ru/css/" target="_blank">CSS для початківців</a>
+        </p>
+        
+        <h2>Приклад зображення</h2>
+        <img src="https://picsum.photos/900/480" alt="Сучасний веб-дизайн" style="width: 100%; border-radius: 12px; box-shadow: 0 8px 20px rgba(0,0,0,0.15);">
+        
+    </div>
+
+</body>
+</html>
